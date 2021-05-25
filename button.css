@@ -1,0 +1,77 @@
+.cashfreebtn {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 10px;
+    border:1px solid black;
+    width: 50%;
+    height: 309px;
+    margin-left: 338px;
+  }
+.btn--large{
+    padding: 30px 60px;
+    font-size: large;
+    margin-top: 10px;
+    background-color: #726DA8;
+}
+
+.btn--default{
+    padding: 20px 40px;
+    font-size: medium;
+    margin-top: 10px;
+    background-color: blueviolet;
+}
+.btn--small{
+    padding:10px 20px;
+    font-size: small;
+    margin-top: 10px;
+    background-color: crimson;
+}
+.btn--disable{
+    padding: 10px 20px;
+    font-size: medium;
+    background-color: blanchedalmond;
+    color: black;
+    margin-top: 10px;
+   
+}
+
+* {
+    font-family: Helvetica;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+}
+
+.container div:nth-child(1), div:nth-child(6) {
+    background-color: #B8336A;
+}
+
+.container div:nth-child(2), div:nth-child(7) {
+    background-color: #726DA8;
+}
+
+.container div:nth-child(3), div:nth-child(8) {
+    background-color: #7D8CC4;
+}
+
+.container div:nth-child(4),div:nth-child(9){
+    background-color: #A0D2DB;
+}
+
+.container div:nth-child(12),div:nth-child(10) {
+    background-color: #C490D1;
+}
+.container div:nth-child(11),div:nth-child(5) {
+    background-color: #C490D1;
+}
+.container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-auto-rows: 1.5em;
+    grid-gap: 25px;
+    border:1px solid black;
+    width: 50%;
+    height: 350px;
+    margin-left: 338px;
+}
